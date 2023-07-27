@@ -1,0 +1,44 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about-me": "Acerca de mí",
+        "my-projects": "Mis proyectos",
+        "skills": "Habilidades",
+        "studies": "Estudios",
+        "contact-me": "Contáctame",
+        "contact-title": "Contáctame"
+    }, 
+    "home": {
+        "title": "Desarrollador Web Front-End"
+    },
+    "about-me": {
+        "title": "Acerca de Mí",
+        "p1": "Soy un joven de 20 años apasionado por el diseño y desarrollo de aplicaciones web que destaca por su proactividad y por su voluntad de mejorar cada día. Tengo preferencias hacia el Front-End, sin embargo cuento con conocimientos del Back-End.",
+        "p2": "Mi objetivo es enfocarme en el Front-End y desarrollar mi carrera profesional en el mundo IT formando parte de una empresa que me permita crecer profesionalmente y sacarle provecho a todo lo aprendido hasta ahora.",
+        "download": "Descargar CV"
+    },
+    "my-projects": {
+        "title": "Mis Proyectos",
+        "felix-description": "Aplicacion web de peliculas y series desarrollada sobre todo con ReactJS, Firebase y SCSS. (DISEÑO WEB ADAPTABLE)",
+        "fitness-shop-description": "E-commerce de productos fitness desarrollado principalmente con ReactJS, Firebase, MUI y SCSS. (SIN DISEÑO WEB ADAPTABLE)",
+        "panthera-clothes-description": "E-commerce de vestimenta para ambos géneros desarrollado con HTML, JavaScript y SCSS. (SIN DISEÑO WEB ADAPTABLE)",
+        "carajo-description": "Maqueta web de una banda de música. Tecnologías: HTML, SCSS, Bootstrap. (DISEÑO WEB ADAPTABLE)"
+    },
+    "skills": {
+        "title": "Habilidades"
+    },
+    "studies": {
+        "title": "Estudios",
+        "backend-title": "Programación Backend",
+        "backend-description": "Curso de Backend en CoderHouse donde se utilizo Express, Plantillas, SQL, Mongo DB, entre otras.",
+        "react-description": "Curso de React en CoderHouse donde se utilizo Promesas, APIs, Contextos, Estados, Ruteo, Firebase.ed.",
+        "js-title": "Backend Programming",
+        "js-description": "Curso de JavaScript en CoderHouse donde se utilizo Node, Dom, Eventos, AJAX & Fetch, Storage, y Workshop.",
+        "web-development-title": "Desarrollo Web",
+        "web-development-description": "Curso de Desarrollo Web en CoderHouse donde se utilizo HTML, CSS, Bootstrap, Git y GitHub."
+    }, 
+    "footer": {
+        "copyright": "Todos los derechos reservados",
+        "credits": "Desarrollado y diseño por Alejo Feas Matej"
+    }    
+}

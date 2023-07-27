@@ -1,0 +1,44 @@
+{
+    "nav": {
+        "home": "Home",
+        "about-me": "About Me",
+        "my-projects": "My Projects",
+        "skills": "Skills",
+        "studies": "Studies",
+        "contact-me": "Contact Me",
+        "contact-title": "Contact Me"
+    },
+    "home": {
+        "title": "Front-End Web Developer"
+    },
+    "about-me": {
+        "title": "About Me",
+        "p1": "I am a young man of 20 years passionate about the design and development of web applications that stands out for its proactivity and its willingness to improve every day. I have preferences towards the Front-End, however I have knowledge of the Back-End.",
+        "p2": "My goal is to focus on the Front-End and develop my professional career in the IT world as part of a company that allows me to grow professionally and take advantage of everything I have learned so far.",
+        "download": "Download CV"
+    },
+    "my-projects": {
+        "title": "My Projects",
+        "felix-description": "Web application of movies and series developed mainly with ReactJS, Firebase and SCSS. (RESPONSIVE WEB DESIGN)",
+        "fitness-shop-description": "E-commerce of fitness products developed mainly with ReactJS, Firebase, MUI and SCSS. (NO RESPONSIVE WEB DESIGN)",
+        "panthera-clothes-description": "E-commerce of clothing for both genders developed with HTML, JavaScript and SCSS. (NO RESPONSIVE WEB DESIGN)",
+        "carajo-description": "Web model of a music band. Technologies: HTML, SCSS, Bootstrap. (RESPONSIVE WEB DESIGN)"
+    },
+    "skills": {
+        "title": "Skills"
+    },
+    "studies": {
+        "title": "Studies",
+        "backend-title": "Backend Programming",
+        "backend-description": "Backend course in CoderHouse where Express, Templates, SQL, Mongo DB, among others, were used.",
+        "react-description": "React course in CoderHouse where Promises, APIs, Contexts, States, Routing, Firebase were used.",
+        "js-title": "Backend Programming",
+        "js-description": "JavaScript course in CoderHouse where Node, Dom, Events, AJAX & Fetch, Storage, and Workshop were used.",
+        "web-development-title": "Web Development",
+        "web-development-description": "Web Development course at CoderHouse where HTML, CSS, Bootstrap, Git and GitHub were used."
+    }, 
+    "footer": {
+        "copyright": "All rights reserved",
+        "credits": "Developed and designed by Alejo Feas Matej"
+    }    
+}
