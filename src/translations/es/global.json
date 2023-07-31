@@ -31,11 +31,11 @@
         "title": "Estudios",
         "backend-title": "Programación Backend",
         "backend-description": "Curso de Backend en CoderHouse donde se utilizo Express, Plantillas, SQL, Mongo DB, entre otras.",
-        "react-description": "Curso de React en CoderHouse donde se utilizo Promesas, APIs, Contextos, Estados, Ruteo, Firebase.ed.",
+        "react-description": "Curso de React JS en el que se abarcaron los siguientes temas: Promesas, APIs, Contextos, Estados, Ruteo, Firebase y más.",
         "js-title": "Backend Programming",
-        "js-description": "Curso de JavaScript en CoderHouse donde se utilizo Node, Dom, Eventos, AJAX & Fetch, Storage, y Workshop.",
+        "js-description": "Curso de JavaScript. En el mismo se trabajó principalmente con: Node, Dom, Eventos, AJAX & Fetch, Storage, y Workshop.",
         "web-development-title": "Desarrollo Web",
-        "web-development-description": "Curso de Desarrollo Web en CoderHouse donde se utilizo HTML, CSS, Bootstrap, Git y GitHub."
+        "web-development-description": "Curso de Desarrollo Web en CoderHouse donde aprendí HTML, CSS, Bootstrap, SEO, Git y GitHub."
     }, 
     "footer": {
         "copyright": "Todos los derechos reservados",

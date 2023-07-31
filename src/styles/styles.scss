@@ -16,6 +16,9 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9) !important;
 }
+::-webkit-scrollbar {
+    width:0;
+}
 
 //HEADER
 .navColor {
@@ -53,7 +56,6 @@ header {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                cursor: pointer;
                 border: none;
                 background-color: rgb(73, 20, 20);
                 width: 30px;
@@ -233,6 +235,7 @@ header {
         width: 90%;
     }
 }
+
 //HOME
 .home {
     position: relative;
@@ -269,6 +272,9 @@ header {
                 color: white;
             }
             button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 color: white;   
                 cursor: pointer;
                 width: 50px;

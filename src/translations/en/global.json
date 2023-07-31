@@ -13,7 +13,7 @@
     },
     "about-me": {
         "title": "About Me",
-        "p1": "I am a young man of 20 years passionate about the design and development of web applications that stands out for its proactivity and its willingness to improve every day. I have preferences towards the Front-End, however I have knowledge of the Back-End.",
+        "p1": "I am a young man of 20 years old passionate about the design and development of web applications that stands out for its proactivity and its willingness to improve every day. I have preferences towards the Front-End, however I have knowledge of the Back-End.",
         "p2": "My goal is to focus on the Front-End and develop my professional career in the IT world as part of a company that allows me to grow professionally and take advantage of everything I have learned so far.",
         "download": "Download CV"
     },
@@ -31,11 +31,11 @@
         "title": "Studies",
         "backend-title": "Backend Programming",
         "backend-description": "Backend course in CoderHouse where Express, Templates, SQL, Mongo DB, among others, were used.",
-        "react-description": "React course in CoderHouse where Promises, APIs, Contexts, States, Routing, Firebase were used.",
+        "react-description": "React JS course covering the following topics: Promises, APIs, Contexts, States, Routing, Firebase, and more.",
         "js-title": "Backend Programming",
-        "js-description": "JavaScript course in CoderHouse where Node, Dom, Events, AJAX & Fetch, Storage, and Workshop were used.",
+        "js-description": "JavaScript course. We worked mainly with: Node, Dom, Events, AJAX & Fetch, Storage, and Workshop.",
         "web-development-title": "Web Development",
-        "web-development-description": "Web Development course at CoderHouse where HTML, CSS, Bootstrap, Git and GitHub were used."
+        "web-development-description": "Web Development course at CoderHouse where I learned HTML, CSS, Bootstrap, SEO, Git and GitHub."
     }, 
     "footer": {
         "copyright": "All rights reserved",
