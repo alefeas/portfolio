@@ -7,6 +7,13 @@ export const MyProjects = () => {
 
     const projects = [
         {
+            title: 'Weather App',
+            description: t('my-projects.weather-app-description'),
+            image: 'https://firebasestorage.googleapis.com/v0/b/felix-73c38.appspot.com/o/Captura%20de%20pantalla%20(944).png?alt=media&token=6067c400-a144-4f2e-9bd8-596faaeab233',
+            githubLink: 'https://github.com/alefeas/weather-app.git',
+            projectLink: 'https://weather-app-8.netlify.app/'
+        },
+        {
             title: 'Felix',
             description: t('my-projects.felix-description'),
             image: 'https://firebasestorage.googleapis.com/v0/b/felix-73c38.appspot.com/o/Captura%20de%20pantalla%20(934).png?alt=media&token=d8902994-edd2-4759-995c-c849ff4e05d0',

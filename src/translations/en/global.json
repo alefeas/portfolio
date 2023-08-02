@@ -19,6 +19,7 @@
     },
     "my-projects": {
         "title": "My Projects",
+        "weather-app-description": "Application that when receiving a location, returns the weather in real time. Technologies: ReactJS/SCSS. (RESPONSIVE WEB DESIGN)",
         "felix-description": "Web application of movies and series developed mainly with ReactJS, Firebase and SCSS. (RESPONSIVE WEB DESIGN)",
         "fitness-shop-description": "E-commerce of fitness products developed mainly with ReactJS, Firebase, MUI and SCSS. (NO RESPONSIVE WEB DESIGN)",
         "panthera-clothes-description": "E-commerce of clothing for both genders developed with HTML, JavaScript and SCSS. (NO RESPONSIVE WEB DESIGN)",

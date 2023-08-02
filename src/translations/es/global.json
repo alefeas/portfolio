@@ -19,7 +19,8 @@
     },
     "my-projects": {
         "title": "Mis Proyectos",
-        "felix-description": "Aplicacion web de peliculas y series desarrollada sobre todo con ReactJS, Firebase y SCSS. (DISEÑO WEB ADAPTABLE)",
+        "weather-app-description": "Aplicación que al recibir una ubicación, devuelve el clima en tiempo real. Tecnologías: ReactJS y SCSS. (DISEÑO WEB ADAPTABLE)",
+        "felix-description": "Aplicación web de películas y series desarrollada sobre todo con ReactJS, Firebase y SCSS. (DISEÑO WEB ADAPTABLE)",
         "fitness-shop-description": "E-commerce de productos fitness desarrollado principalmente con ReactJS, Firebase, MUI y SCSS. (SIN DISEÑO WEB ADAPTABLE)",
         "panthera-clothes-description": "E-commerce de vestimenta para ambos géneros desarrollado con HTML, JavaScript y SCSS. (SIN DISEÑO WEB ADAPTABLE)",
         "carajo-description": "Maqueta web de una banda de música. Tecnologías: HTML, SCSS, Bootstrap. (DISEÑO WEB ADAPTABLE)"
@@ -30,15 +31,14 @@
     "studies": {
         "title": "Estudios",
         "backend-title": "Programación Backend",
-        "backend-description": "Curso de Backend en CoderHouse donde se utilizo Express, Plantillas, SQL, Mongo DB, entre otras.",
-        "react-description": "Curso de React JS en el que se abarcaron los siguientes temas: Promesas, APIs, Contextos, Estados, Ruteo, Firebase y más.",
-        "js-title": "Backend Programming",
+        "backend-description": "Curso de Backend en CoderHouse donde se utilizó Express, Plantillas, SQL, Mongo DB, entre otras.",
+        "react-description": "Curso de ReactJS en el que se abarcaron los siguientes temas: Promesas, APIs, Contextos, Estados, Ruteo, Firebase y más.",
         "js-description": "Curso de JavaScript. En el mismo se trabajó principalmente con: Node, Dom, Eventos, AJAX & Fetch, Storage, y Workshop.",
         "web-development-title": "Desarrollo Web",
         "web-development-description": "Curso de Desarrollo Web en CoderHouse donde aprendí HTML, CSS, Bootstrap, SEO, Git y GitHub."
     }, 
     "footer": {
         "copyright": "Todos los derechos reservados",
-        "credits": "Desarrollado y diseño por Alejo Feas Matej"
+        "credits": "Desarrollado y diseñado por Alejo Feas Matej"
     }    
 }
