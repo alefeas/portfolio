@@ -13,12 +13,13 @@
     },
     "about-me": {
         "title": "Acerca de Mí",
-        "p1": "Soy un joven de 20 años apasionado por el diseño y desarrollo de aplicaciones web que destaca por su proactividad y por su voluntad de mejorar cada día. Tengo preferencias hacia el Front-End, sin embargo cuento con conocimientos del Back-End.",
-        "p2": "Mi objetivo es enfocarme en el Front-End y desarrollar mi carrera profesional en el mundo IT formando parte de una empresa que me permita crecer profesionalmente y sacarle provecho a todo lo aprendido hasta ahora.",
+        "p1": "Soy un joven de 20 años apasionado por el diseño y desarrollo de aplicaciones web y me destaco por ser proactivo y por mi voluntad de mejora continua. Tengo preferencias hacia el Front-End, sin embargo cuento con conocimientos del Back-End.",
+        "p2": "Mi objetivo es enfocarme en el Front-End y desarrollar mi carrera profesional en el mundo IT formando parte de una empresa que me permita crecer profesionalmente y plasmar todo lo aprendido hasta ahora.",
         "download": "Descargar CV"
     },
     "my-projects": {
         "title": "Mis Proyectos",
+        "trivia-app-description": "Este juego consiste en una batalla trivial entre 2 jugadores. Fue desarrollado con ReactJS y SCSS. (DISEÑO WEB ADAPTABLE)",
         "weather-app-description": "Aplicación que al recibir una ubicación, devuelve el clima en tiempo real. Tecnologías: ReactJS y SCSS. (DISEÑO WEB ADAPTABLE)",
         "felix-description": "Aplicación web de películas y series desarrollada sobre todo con ReactJS, Firebase y SCSS. (DISEÑO WEB ADAPTABLE)",
         "fitness-shop-description": "E-commerce de productos fitness desarrollado principalmente con ReactJS, Firebase, MUI y SCSS. (SIN DISEÑO WEB ADAPTABLE)",

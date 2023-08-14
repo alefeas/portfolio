@@ -13,12 +13,13 @@
     },
     "about-me": {
         "title": "About Me",
-        "p1": "I am a young man of 20 years old passionate about the design and development of web applications that stands out for its proactivity and its willingness to improve every day. I have preferences towards the Front-End, however I have knowledge of the Back-End.",
-        "p2": "My goal is to focus on the Front-End and develop my professional career in the IT world as part of a company that allows me to grow professionally and take advantage of everything I have learned so far.",
+        "p1": "I am a young man of 20 years old passionate about the design and development of web applications and I stand out for being proactive and for my willingness to continuous improvement. I have preferences towards the Front-End, however I have knowledge of the Back-End.",
+        "p2": "My goal is to focus on the Front-End and develop my professional career in the IT world as part of a company that allows me to grow professionally and capture everything I have learned so far.",
         "download": "Download CV"
     },
     "my-projects": {
         "title": "My Projects",
+        "trivia-app-description": "This game consists of a trivial battle between 2 players. It was developed with ReactJS and SCSS. (RESPONSIVE WEB DESIGN)",
         "weather-app-description": "Application that when receiving a location, returns the weather in real time. Technologies: ReactJS/SCSS. (RESPONSIVE WEB DESIGN)",
         "felix-description": "Web application of movies and series developed mainly with ReactJS, Firebase and SCSS. (RESPONSIVE WEB DESIGN)",
         "fitness-shop-description": "E-commerce of fitness products developed mainly with ReactJS, Firebase, MUI and SCSS. (NO RESPONSIVE WEB DESIGN)",

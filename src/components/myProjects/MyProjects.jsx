@@ -7,6 +7,13 @@ export const MyProjects = () => {
 
     const projects = [
         {
+            title: 'Trivia App',
+            description: t('my-projects.trivia-app-description'),
+            image: 'https://firebasestorage.googleapis.com/v0/b/felix-73c38.appspot.com/o/coverImageREADME.png?alt=media&token=3c81e8e9-b15b-433e-bca5-b1652bc40640',
+            githubLink: 'https://github.com/alefeas/trivia-app.git',
+            projectLink: 'https://trivia-app1.netlify.app/'
+        },
+        {
             title: 'Weather App',
             description: t('my-projects.weather-app-description'),
             image: 'https://firebasestorage.googleapis.com/v0/b/felix-73c38.appspot.com/o/Captura%20de%20pantalla%20(944).png?alt=media&token=6067c400-a144-4f2e-9bd8-596faaeab233',
