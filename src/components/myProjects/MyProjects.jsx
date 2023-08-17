@@ -7,6 +7,13 @@ export const MyProjects = () => {
 
     const projects = [
         {
+            title: 'Tic Tac Toe',
+            description: t('my-projects.tic-tac-toe-description'),
+            image: 'https://firebasestorage.googleapis.com/v0/b/felix-73c38.appspot.com/o/Captura%20de%20pantalla%20(948).png?alt=media&token=18fef89c-e9f0-4dee-b896-e49f64efd6f5',
+            githubLink: 'https://github.com/alefeas/tic-tac-toe.git',
+            projectLink: 'https://tic-tac-toe-100.netlify.app/'
+        },
+        {
             title: 'Trivia App',
             description: t('my-projects.trivia-app-description'),
             image: 'https://firebasestorage.googleapis.com/v0/b/felix-73c38.appspot.com/o/coverImageREADME.png?alt=media&token=3c81e8e9-b15b-433e-bca5-b1652bc40640',
@@ -51,25 +58,27 @@ export const MyProjects = () => {
     ]
 
     return (
-        <div id="my-projects" className="projectsContainer">
+        <div id="my-projects" className="projectsSectionContainer">
             <h3>{t('my-projects.title')}</h3>
-            {
-                projects.map(item =>
-                    <div className="projectContainer">
-                        <a className="imageLink" href={item.projectLink} target='_blank' rel='noreferrer'>
-                        <img src={item.image} alt={item.title} />
-                        </a>
-                        <div>
-                        <h4>{item.title}</h4>
-                        <p>{item.description}</p>
-                        <div>
-                            <a target='_blank' rel='noreferrer' href={item.githubLink}><GitHubIcon/></a>
-                            <a target='_blank' rel='noreferrer' href={item.projectLink}><LinkIcon/></a>
-                        </div>
-                        </div>
-                    </div>    
-                )
-            }
+            <div className='projectsContainer'>
+                {
+                    projects.map(item =>
+                        <div className="projectContainer">
+                            <a className="imageLink" href={item.projectLink} target='_blank' rel='noreferrer'>
+                            <img src={item.image} alt={item.title} />
+                            </a>
+                            <div>
+                            <h4>{item.title}</h4>
+                            <p>{item.description}</p>
+                            <div>
+                                <a target='_blank' rel='noreferrer' href={item.githubLink}><GitHubIcon/></a>
+                                <a target='_blank' rel='noreferrer' href={item.projectLink}><LinkIcon/></a>
+                            </div>
+                            </div>
+                        </div>    
+                    )
+                }
+            </div>
         </div>
     )
 }

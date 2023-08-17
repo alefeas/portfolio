@@ -19,6 +19,7 @@
     },
     "my-projects": {
         "title": "Mis Proyectos",
+        "tic-tac-toe-description": "Juego Tic Tac Toe llevado a cabo en ReactJS y estilizado con SCSS. (DISEÑO WEB ADAPTABLE)",
         "trivia-app-description": "Este juego consiste en una batalla trivial entre 2 jugadores. Fue desarrollado con ReactJS y SCSS. (DISEÑO WEB ADAPTABLE)",
         "weather-app-description": "Aplicación que al recibir una ubicación, devuelve el clima en tiempo real. Tecnologías: ReactJS y SCSS. (DISEÑO WEB ADAPTABLE)",
         "felix-description": "Aplicación web de películas y series desarrollada sobre todo con ReactJS, Firebase y SCSS. (DISEÑO WEB ADAPTABLE)",
