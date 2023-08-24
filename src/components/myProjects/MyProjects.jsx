@@ -7,6 +7,13 @@ export const MyProjects = () => {
 
     const projects = [
         {
+            title: 'Rick and Morty Wiki',
+            description: t('my-projects.rick-and-morty-wiki-description'),
+            image: 'https://firebasestorage.googleapis.com/v0/b/felix-73c38.appspot.com/o/imagen-readme-wiki-rick-and-morty.png?alt=media&token=5f47626c-90ed-4df3-ae3a-25c53ab06557',
+            githubLink: 'https://github.com/alefeas/rick-and-morty-wiki.git',
+            projectLink: 'https://rick-and-morty-wiki1.netlify.app/'
+        },
+        {
             title: 'Tic Tac Toe',
             description: t('my-projects.tic-tac-toe-description'),
             image: 'https://firebasestorage.googleapis.com/v0/b/felix-73c38.appspot.com/o/Captura%20de%20pantalla%20(948).png?alt=media&token=18fef89c-e9f0-4dee-b896-e49f64efd6f5',

@@ -19,6 +19,7 @@
     },
     "my-projects": {
         "title": "Mis Proyectos",
+        "rick-and-morty-wiki-description": "En la wiki podrás ver la información de los personajes de la serie y más. Tecnologías: ReactJS/SCSS/Axios (DISEÑO WEB ADAPTABLE)",
         "tic-tac-toe-description": "Juego Tic Tac Toe llevado a cabo en ReactJS y estilizado con SCSS. (DISEÑO WEB ADAPTABLE)",
         "trivia-app-description": "Este juego consiste en una batalla trivial entre 2 jugadores. Fue desarrollado con ReactJS y SCSS. (DISEÑO WEB ADAPTABLE)",
         "weather-app-description": "Aplicación que al recibir una ubicación, devuelve el clima en tiempo real. Tecnologías: ReactJS y SCSS. (DISEÑO WEB ADAPTABLE)",

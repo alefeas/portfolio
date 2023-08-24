@@ -25,6 +25,10 @@ export const Skills = () => {
             image: 'https://avatars.githubusercontent.com/u/317889?s=200&v=4'
         }, 
         {
+            title: 'AXIOS',
+            image: 'https://avatars.githubusercontent.com/u/32372333?s=200&v=4'
+        }, 
+        {
             title: 'Firebase',
             image: 'https://d226aj4ao1t61q.cloudfront.net/firebase_44b31b544b9ca3c736788200b4fd120d.png'
         }, 
