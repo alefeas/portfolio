@@ -19,6 +19,9 @@
     },
     "my-projects": {
         "title": "My Projects",
+        "hangman-title": "Hangman",
+        "hangman-description": "Game 'The Hangman' developed with ReactJS. The words are obtained from 'Random Word API'. (RESPONSIVE WEB DESIGN)",
+        "rick-and-morty-wiki-title": "Rick and Morty Wiki",
         "rick-and-morty-wiki-description": "Here you can see the information of the characters of the series and more. Technologies: ReactJS/SCSS/Axios (RESPONSIVE WEB DESIGN)",
         "tic-tac-toe-description": "Tic Tac Toe game carried out in ReactJS and stylized with SCSS. (RESPONSIVE WEB DESIGN)",
         "trivia-app-description": "This game consists of a trivial battle between 2 players. It was developed with ReactJS and SCSS. (RESPONSIVE WEB DESIGN)",
