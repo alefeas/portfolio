@@ -463,34 +463,34 @@ header {
         gap: 50px;
         width: 900px;
         .projectContainer {
+            transition: .25s;
+            border: 2px solid transparent;
             background-color: rgba(0, 0, 0, 0.9);
             display: flex;
             flex-direction: column;
-            gap: 10px;
             width: 425px;
-            border-radius: 10px;
             p {
                 letter-spacing: 1px;
                 font-size: 18px;   
             }
             .imageLink {
-                height: 200px;
+                overflow: hidden;
             }
             img {
+                transition: .25s;
                 width: 100%;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
+                height: 100%;
             }
             div {
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
-                padding: 20px;
+                padding: 0px 20px 10px 20px;
                 height: 265px;
                 div {
                     border-radius: 10px;
                     display: flex;
-                    align-items: center;
+                    align-items: end;
                     flex-direction: row;
                     padding: 0;
                     a {
@@ -508,6 +508,12 @@ header {
             h4 {
                 margin-top: 25px;
                 font-size: 26px;
+            }
+        }
+        &:hover {
+            border-color: white;
+            img {
+                transform: scale(1.10);
             }
         }
     }
@@ -532,16 +538,10 @@ header {
                     padding: 5px 15px 10px 15px;
                 }
                 .imageLink {
-                    height: 100%;
-                }
-                img {
-                    border-top-right-radius: 10px;
-                    width: 100%;
-                    height: auto;
-                    border-bottom-left-radius: 0;
+                    overflow: hidden;
                 }
                 h4 {
-                    margin-top: 0 !important;
+                    margin-top: 12.5px !important;
                 }
             }
         }
@@ -669,6 +669,8 @@ header {
         flex-direction: column;
         gap: 30px;
         .studie {
+            text-decoration: none;
+            color: white;
             border: 2px solid white;
             background-color:rgba(0, 0, 0, 0.9);
             width: 1050px;
