@@ -1,6 +1,8 @@
 //GENERAL STYLES
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+$secondaryColor: rgb(158, 86, 86);
+
 * {
     scroll-behavior: smooth;
     margin: 0;
@@ -57,7 +59,7 @@ header {
                 align-items: center;
                 justify-content: center;
                 border: none;
-                background-color: rgb(73, 20, 20);
+                background-color: $secondaryColor;
                 width: 30px;
                 height: 30px;
                 margin: 15px 0 0 15px;
@@ -75,7 +77,7 @@ header {
             width: 45px;
             transition: .5s;
             &:hover {
-                border-color: rgb(73, 20, 20);
+                border-color: $secondaryColor;
             }
         }
         .contactButton {
@@ -89,7 +91,7 @@ header {
             background-color: white;
             &:hover {
                 color: white;
-                background-color: rgb(73, 20, 20);
+                background-color: $secondaryColor;
             }
         }
         .imageMenuContainer {
@@ -113,7 +115,7 @@ header {
                 text-decoration: none;
                 transition: .5s;
                 &:hover {
-                    color: rgb(73, 20, 20);
+                    color: $secondaryColor;
                 }
             }
         }
@@ -166,7 +168,7 @@ header {
             border-radius: 10px;
             height: 40px;
             transition: .5s;
-            background-color: rgb(73, 20, 20);
+            background-color: $secondaryColor;
             color: white;
         }    
     }
@@ -230,9 +232,12 @@ header {
         }
     }
 }
-@media only screen and (max-width: 575) {
+@media only screen and (max-width: 575px) {
     .boxModal {
         width: 90%;
+        .contactContainer {
+            font-size: 16px;
+        }
     }
 }
 
@@ -284,7 +289,7 @@ header {
                 background-color: transparent;
                 transition: .5s;
                 &:hover {
-                    background-color: rgb(73, 20, 20);
+                    background-color: $secondaryColor;
                 }
             }    
         }    
@@ -342,16 +347,15 @@ header {
         outline: 1px solid white;
         outline-offset: calc(-1*var(--s));
         background: conic-gradient(from 90deg at 1px 1px,#0000 25%,white 0);
-        width: 400px;    
+        height: 510px;    
     }
-    div {
+    .infoContainer {
+        height: 510px;
         color: white;
         display: flex;
         text-align: justify;
         flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        background-size: cover;
+        justify-content: space-around !important;
         a {
             cursor: pointer;
             color: black;
@@ -369,7 +373,7 @@ header {
             transition: .5s;
             &:hover {
                 color: white;
-                background-color: rgb(73, 20, 20);
+                background-color: $secondaryColor;
             }
         }   
         h3 {
@@ -388,9 +392,10 @@ header {
         gap: 30px;
         padding: 10% 4.5%;
         img {
-            width: 347px;
+            height: 440px;
         }
-        div {
+        .infoContainer {
+            height: 440px;
             gap: 10px;
             p {
                 font-size: 18px;
@@ -406,9 +411,10 @@ header {
         gap: 20px;
         padding: 10% 4.5%;
         img {
-            width: 347px;
+            height: 500px;
         }
-        div {
+        .infoContainer {
+            height: auto;
             gap: 15px;
             p {
                 letter-spacing: .5px;
@@ -417,15 +423,16 @@ header {
         }
     }
 }
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 420px) {
     .aboutMeContainer {
         flex-direction: column;
         gap: 20px;
         padding: 10% 4.5%;
         img {
-            width: 300px;
+            width: 92vw;
+            height: auto;
         }
-        div {
+        .infoContainer {
             gap: 15px;
             p {
                 letter-spacing: .5px;
@@ -439,11 +446,10 @@ header {
 //PROJECTS
 .projectsSectionContainer {
     border-top: 2px solid white;
-    background: url('https://firebasestorage.googleapis.com/v0/b/felix-73c38.appspot.com/o/blog-ds-1.jpg?alt=media&token=6873e1fa-d529-40ae-9834-c97b44697e90');
+    background: url('https://pixabay.com/get/g8809f6ea8b5305bb675ba1c22a5c49f4a34b692c468e0727d5e0eb8b7780993695bcef16226ccae0d4179f4b90a3ea59371938e75d38f4a06153a1d87abbdcc8_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -458,14 +464,12 @@ header {
     } 
     .projectsContainer {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
+        justify-content: space-between;
         gap: 50px;
         width: 900px;
         .projectContainer {
             transition: .25s;
-            border: 2px solid transparent;
-            background-color: rgba(0, 0, 0, 0.9);
             display: flex;
             flex-direction: column;
             width: 425px;
@@ -486,11 +490,13 @@ header {
                 flex-direction: column;
                 gap: 10px;
                 padding: 0px 20px 10px 20px;
-                height: 265px;
+                height: 245px;
+                background-color: rgba(0, 0, 0, 0.9);
                 div {
+                    background-color: transparent;
                     border-radius: 10px;
                     display: flex;
-                    align-items: end;
+                    align-items: flex-end;
                     flex-direction: row;
                     padding: 0;
                     a {
@@ -500,7 +506,7 @@ header {
                             font-size: 35px !important;
                             transition: .5s;
                             &:hover {
-                                color: rgb(73, 20, 20);
+                                color: $secondaryColor;
                             }
                         }
                     }
@@ -511,7 +517,6 @@ header {
             }
         }
         &:hover {
-            border-color: white;
             img {
                 transform: scale(1.10);
             }
@@ -581,7 +586,10 @@ header {
         gap: 10px;
         justify-content: center;
         text-align: center;
-        div {
+        a {
+            color: white;
+            text-decoration: none;
+            transition: .25s;
             padding: 10px;
             display: flex;
             flex-direction: column;
@@ -591,14 +599,29 @@ header {
                 margin-bottom: 5px;
             }
             .imgContainer {
+                transition: .25s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 background-color: rgba(255, 255, 255, 0.1);
                 margin: 10px;
                 border: 2px solid white;
+                padding: 10px;
                 border-radius: 50%;
                 img {
+                    transition: .25s;
                     margin: 10px;
                     padding: 10px;
                     width: 80px;
+                }
+            }
+            &:hover {
+                color: $secondaryColor;
+                .imgContainer {
+                    border-color: $secondaryColor;
+                    img {
+                        transform: scale(1.05);
+                    }
                 }
             }
         }
@@ -618,7 +641,7 @@ header {
     .skillsContainer {
         padding: 10% 4.5%;
         .skills {
-            div {
+            a {
                 padding: 12.5px;
                 .imgContainer {
                     img {
@@ -637,7 +660,7 @@ header {
     .skillsContainer {
         padding: 10% 4.5%;
         .skills {
-            div {
+            a {
                 padding: 10px;
                 .imgContainer {
                     padding: 7.5px;
@@ -669,11 +692,12 @@ header {
         flex-direction: column;
         gap: 30px;
         .studie {
+            transition: .25s;
             text-decoration: none;
             color: white;
             border: 2px solid white;
             background-color:rgba(0, 0, 0, 0.9);
-            width: 1050px;
+            width: 971px;
             display: flex;
             border-radius: 10px;
             div {
@@ -691,10 +715,17 @@ header {
                 }
             }
             img {
+                transition: .25s;
                 border-top-left-radius: 10px;
                 border-bottom-left-radius: 10px;
                 width: 300px;
                 border-right:2px solid white;
+            }
+            &:hover {
+                border-color: $secondaryColor;
+                img {
+                    border-color: $secondaryColor;
+                }
             }
         }
     }
@@ -758,7 +789,7 @@ footer {
         color: white;
         transition: .5s;
         &:hover {
-            color: rgb(73, 20, 20);
+            color: $secondaryColor;
         }
     }
 }

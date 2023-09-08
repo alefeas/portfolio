@@ -4,6 +4,12 @@ export const Studies = () => {
     const [t] = useTranslation('global')
 
     const studies = [
+        /* {
+            title: t('NextJS Flex'),
+            description: t('Proximamente'),
+            image: 'https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg',
+            certificateLink: '#studies'
+        }, */
         {
             title: t('studies.backend-title'),
             description: t('studies.backend-description'),
