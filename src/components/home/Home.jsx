@@ -19,9 +19,9 @@ export const Home = () => {
                 <h1>ALEJO FEAS MATEJ</h1>
                 <span>{text}<Cursor/></span>
                 <div className="buttonHomeContainer">
-                    <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/afeas/"><button><LinkedInIcon/></button></a>
-                    <a target="_blank" rel='noreferrer' href="https://github.com/alefeas"><button><GitHubIcon/></button></a>
-                    <a href="mailto:alefeas@gmail.com"><button><EmailIcon/></button></a>
+                    <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/afeas/" aria-label='goToLinkedin'><button id='linkedinButton' aria-label='linkedinButtonh'><LinkedInIcon/></button></a>
+                    <a target="_blank" rel='noreferrer' href="https://github.com/alefeas" aria-label='goToGitHub'><button id='gitHubButton' aria-label='gitHubButton'><GitHubIcon/></button></a>
+                    <a href="mailto:alefeas@gmail.com" aria-label='sendEmail'><button id='emailButton' aria-label='emailButton'><EmailIcon/></button></a>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ export const Footer = () => {
             <span>Copyright © {t('footer.copyright')}</span>
             <div>
                 <span>{t('footer.credits')} </span>
-                <a target='_blank' rel='noreferrer' href="https://github.com/alefeas"><GitHubIcon className='githubIcon'/></a>
+                <a target='_blank' rel='noreferrer' href="https://github.com/alefeas" aria-label='gitHubLink'><GitHubIcon className='githubIcon'/></a>
             </div>
         </footer>
     )

@@ -29,7 +29,9 @@
         "felix-description": "Web application of movies and series developed mainly with ReactJS, Firebase and SCSS. (RESPONSIVE WEB DESIGN)",
         "fitness-shop-description": "E-commerce of fitness products developed mainly with ReactJS, Firebase, MUI and SCSS. (NO RESPONSIVE WEB DESIGN)",
         "panthera-clothes-description": "E-commerce of clothing for both genders developed with HTML, JavaScript and SCSS. (NO RESPONSIVE WEB DESIGN)",
-        "carajo-description": "Web model of a music band. Technologies: HTML, SCSS, Bootstrap. (RESPONSIVE WEB DESIGN)"
+        "carajo-description": "Web model of a music band. Technologies: HTML, SCSS, Bootstrap. (RESPONSIVE WEB DESIGN)",
+        "next-button": "Next",
+        "prev-button": "Previous"
     },
     "skills": {
         "title": "Skills"

@@ -14,35 +14,40 @@ export const Studies = () => {
             title: t('studies.backend-title'),
             description: t('studies.backend-description'),
             image: 'https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg',
-            certificateLink: '#studies'
+            certificateLink: '#studies',
+            delay: '300'
         },
         {
             title: 'ReactJS',
             description: t('studies.react-description'),
             image: 'https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg',
-            certificateLink: 'https://www.coderhouse.com/certificados/6350a5b57c3cfc000fa4e97f'
+            certificateLink: 'https://www.coderhouse.com/certificados/6350a5b57c3cfc000fa4e97f',
+            delay: '450'
         },
         {
             title: 'JavaScript',
             description: t('studies.js-description'),
             image: 'https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg',
-            certificateLink: 'https://www.coderhouse.com/certificados/632362bc678486000f39609a'
+            certificateLink: 'https://www.coderhouse.com/certificados/632362bc678486000f39609a',
+            delay: '600'
         },
         {
             title: t('studies.web-development-title'),
             description: t('studies.web-development-description'),
             image: 'https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg',
-            certificateLink: 'https://www.coderhouse.com/certificados/62c0bbeb5e6c940024b1d55a'
+            certificateLink: 'https://www.coderhouse.com/certificados/62c0bbeb5e6c940024b1d55a',
+            delay: '750'
         }
     ]
 
     return (
         <div id="studies" className="studiesContainer">
-            <h3>{t('studies.title')}</h3>
+            <h2>{t('studies.title')}</h2>
             <div className="studies">
                 {
-                    studies.map(item =>
-                        <a target={item.certificateLink === '#studies' ? '' : '_blank'} rel="noreferrer" href={item.certificateLink} className="studie">
+                    studies.map((item, index) =>
+                        <a key={index} data-aos='fade-down' data-aos-delay={item.delay} 
+                        data-aos-duration='150' target={item.certificateLink === '#studies' ? '' : '_blank'} rel="noreferrer" href={item.certificateLink} className="studie">
                             <img src={item.image} alt={item.title} />   
                             <div>
                                 <span>{item.title}</span>
