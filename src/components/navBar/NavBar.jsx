@@ -33,7 +33,9 @@ export const NavBar = () => {
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
+    const [isRotated, setIsRotated] = useState(false);
     const changeButton = () => {
+        setIsRotated(!isRotated);
         if (i18n.language === 'es') {
             i18n.changeLanguage('en')
             setImage('https://vectorflags.s3.amazonaws.com/flags/es-circle-01.png')
@@ -57,7 +59,7 @@ export const NavBar = () => {
         <header className={color ? 'navColor' : ''}>
             <nav>
                 <div className='imageMenuContainer'>
-                    <img onClick={changeButton} src={image} alt={i18n.language}/>
+                    <img className={`rotate-image ${isRotated ? 'rotate' : ''}`} onClick={changeButton} src={image} alt={i18n.language}/>
                     <Box className='sideBarContainer'>
                         <CssBaseline />
                                 <MenuIcon className='menuIcon' onClick={handleDrawerOpen} sx={{ ...(open && { display: 'none' }) }}/>

@@ -70,6 +70,10 @@ header {
                 }
             }
         }
+        .rotate {
+        transform: rotateY(360deg); /* La cantidad y dirección de rotación que desees */
+        cursor: pointer; /* Cambia el cursor para indicar que la imagen es clickeable */
+        }
         img {
             border: 2px solid white;
             border-radius: 50%;
@@ -119,6 +123,12 @@ header {
                 }
             }
         }
+    }
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotateY(360deg);
     }
 }
 
@@ -350,7 +360,6 @@ header {
             outline-offset: calc(-1*var(--s));
             background: conic-gradient(from 90deg at 1px 1px,#0000 25%,white 0);
             height: 510px;    
-            animation: animateBorder infinite 2s ease-in-out;
         }
         .infoContainer {
             height: 510px;
@@ -388,12 +397,6 @@ header {
                 width: 600px;
             }
         }
-    }
-}
-
-@keyframes animateBorder {
-    100% {
-        --s: 10px
     }
 }
 
@@ -580,8 +583,7 @@ header {
 @media only screen and (max-width: 1200px) {
     .projectsSectionContainer {
         .projectsContainer {
-            margin: 10% 4.5%;
-            margin-top: 0;
+            margin:0 4.5% 0 4.5%;
         }
     }
 }

@@ -94,7 +94,7 @@ export const MyProjects = () => {
     return (
         <div id="my-projects" className="projectsSectionContainer">
             <h2>{t('my-projects.title')}</h2>
-            <div data-aos='fade-down' data-aos-duration='800' className='projectsContainer'>
+            <div data-aos='fade-zoom' data-aos-duration='500' className='projectsContainer'>
                 {
                     projects.slice(0 + limit, projectsPerPage + limit).map((item, index) =>
                         <div key={index} className="projectContainer">
