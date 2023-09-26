@@ -19,6 +19,7 @@
     },
     "my-projects": {
         "title": "Mis Proyectos",
+        "nutri-secret-description": "Aplicación desarrollada con ReactJS y la API de Edaman. La misma permite registrar al usuario su dieta de una manera más ordenada y precisa.",
         "hangman-title": "El Ahorcado",
         "hangman-description": "Juego 'El Ahorcado' desarrollado con ReactJS. Las palabras son obtenidas de 'Random Word API'. (DISEÑO WEB ADAPTABLE)",
         "rick-and-morty-wiki-title": "Rick y Morty Wiki",

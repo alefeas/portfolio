@@ -8,6 +8,14 @@ export const MyProjects = () => {
 
     const projects = [
         {
+            title: 'Nutri Secret',
+            description: t('my-projects.nutri-secret-description'),
+            image: 'https://i.imgur.com/VQU8KCv.png',
+            githubLink: 'https://github.com/alefeas/nutri-secret.git',
+            projectLink: 'https://nutri-secret.netlify.app/',
+            side: 'left'
+        },
+        {
             title: 'Felix',
             description: t('my-projects.felix-description'),
             image: 'https://i.imgur.com/GDDRjR2.png',
@@ -66,7 +74,7 @@ export const MyProjects = () => {
         {
             title: 'Carajo',
             description: t('my-projects.carajo-description'),
-            image: 'https://i.imgur.com/pZBYxQo.png',
+            image: 'https://i.imgur.com/7I8Bguy.png',
             githubLink: 'https://github.com/alefeas/carajo-banda',
             projectLink: 'https://carajo.netlify.app/',
             side: 'right'
@@ -74,7 +82,7 @@ export const MyProjects = () => {
         {
             title: 'Tic Tac Toe',
             description: t('my-projects.tic-tac-toe-description'),
-            image: 'https://i.imgur.com/7I8Bguy.png',
+            image: 'https://i.imgur.com/7qnXLCC.png',
             githubLink: 'https://github.com/alefeas/tic-tac-toe.git',
             projectLink: 'https://tic-tac-toe-100.netlify.app/',
             side: 'left'
